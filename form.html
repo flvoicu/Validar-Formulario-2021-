@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+<head>
+	<title>Repintar</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="estilos.css">
+	
+</head>
+<body>
+
+	<form action="">
+	
+	<div class="registro">
+		<label class="control">Nombre</label>
+		<br>
+		<input class="contenido" type="text" name="nombre" id="nom">	
+		<br>
+
+		<label class="control">Contraseña</label>
+		<br>
+		<input class="contenido" type="Password" name="Password" id="pass">
+		<br>
+
+		<label class="control">Repetir contraseña</label>
+		<br>
+		<input class="contenido" type="Password" name="rPassword" id="passR">
+		<br>
+
+		<label class="control">Email</label>
+		<br>
+		<input class="contenido" type="text" name="email" id="email">	
+		<br>
+
+		<label class="control">DNI</label>
+		<br>
+		<input class="contenido" type="text" name="dni" id="dni">	
+		<br>
+
+		<input class="contenido" type="hidden" name="hid" id="hid" value="juan">	
+
+		<label class="control">Teléfono</label>
+		<br>
+		<input class="contenido" type="text" name="telf" id="telf">
+		<br>
+
+		<label class="control">Hombre</label>
+		<input class="contenido2" type="radio" name="sexo" id="hombre">
+		<br>
+		<label class="control">Mujer</label>
+		<input class="contenido2" type="radio" name="sexo" id="mujer">
+		<br>
+		<label class="control">Otro</label>
+		<input class="contendio2" type="radio" name="sexo" id="otro">
+		<br>
+
+		<div class="botones">
+			<input class="boton" type="reset" name="reset" value="Resetear">
+			<br>
+			<input class="boton" type="submit" name="submit" value="Enviar" onclick=" valTodo(); ">
+		</div>
+	</div>
+	</form>
+
+	<script src="validar.js"></script>
+
+</body>
+</html>
